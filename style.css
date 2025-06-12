@@ -1,0 +1,47 @@
+.top_banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_banner a{
+    text-decoration: none;
+    color: #0D1321;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #0D1321;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+header{
+    background-image: url(assets/Hero-bg.png);
+    padding: 100px
+}
+
+header div{    
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+header div h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: #0D1321;
+}
+header div p{
+    color: #0D1321;
+}
+
+header div button{
+    Width: 244px;
+    Height :65px;
+    background-color: #0D1321;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
